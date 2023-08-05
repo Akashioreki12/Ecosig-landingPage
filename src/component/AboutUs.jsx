@@ -1,5 +1,5 @@
 import React from 'react'
-import teamPhoto from '../assets/Team-photo.jpeg';
+import teamPhoto from '../assets/team2.jpg';
 
 export default function 
 () {
@@ -13,17 +13,17 @@ export default function
             </div>
             <div className='lg:grid place-items-center leading-normal text-gray-700 lg:text-xl xl:text-2xl dark:text-gray-600'>
               <p className='m-4'>
-                 enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip dgjhdljhlsjhskldjhjkdshgkd 
+                 enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip dgjhdljhlsjhs 
             </p>
             </div>
           </div>
-          <div className='justify-center'>
+          <div className='flex justify-center items-center'>
           <img
             
             src={teamPhoto}
-            width="1000"
-            height="530"
-            className={"object-cover rounded-[3%]"}
+            width="70%"
+            
+            className={"object-cover rounded-[8%] m-[5%]"}
             alt="Team image"
             loading="eager"
             placeholder="blur"

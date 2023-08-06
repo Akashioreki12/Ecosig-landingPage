@@ -8,7 +8,7 @@ export default function Footer({ darkMode }) {
     const logoImage = darkMode ? logoImageDark : logoImageWhite;
 
   return (
-    <div>
+    
         
     <footer className={`${darkMode ? 'bg-gray-300 text-white' : 'bg-gray-100 text-gray-900'}`}>
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -94,6 +94,6 @@ export default function Footer({ darkMode }) {
     </div>
 </footer>
 
-    </div>
+    
   )
 }

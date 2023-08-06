@@ -20,7 +20,7 @@ export default function OurStory() {
             <img
               src={teamPhoto}
               width="90%"
-              className="object-fill rounded-3xl w-[52%] lg:h-auto lg:absolute lg:right-0 lg:top-1"
+              className="object-fill rounded-3xl w-[52%] lg:h-auto lg:absolute lg:right-0 lg:top-1 dancing-image transition-transform duration-200 ease-out"
               loading="eager"
               placeholder="blur"
               alt='team1'
@@ -30,7 +30,7 @@ export default function OurStory() {
             <img
               src={teamPhoto}
               width="90%"
-              className="object-fill rounded-3xl w-[52%] lg:h-auto lg:absolute lg:left-1 lg:bottom-0"
+              className="object-fill rounded-3xl w-[52%] lg:h-auto lg:absolute lg:left-1 lg:bottom-0 dancing-image"
               loading="eager"
               placeholder="blur"
               alt='team2'

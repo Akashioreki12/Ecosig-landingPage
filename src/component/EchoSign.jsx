@@ -3,7 +3,7 @@ import hands from '../assets/hands.png';
 
 export default function EchoSign() {
   return (
-    <>
+    <section id='echoSign'>
       <div className='flex flex-col m-[8%]'>
         <div className='flex flex-col lg:flex-row'>
           <div className='block md:w-[100%] ml-8 text-4xl md:text-5xl lg:text-6xl font-bold leading-snug tracking-tight'>
@@ -42,7 +42,7 @@ export default function EchoSign() {
 
         <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4  justify-items-center items-center'>
           <div>
-            <div className="max-w-sm p-6 bg-[#ebdf9c] rounded-lg shadow-2xl">
+            <div className="max-w-sm p-6 bg-[#ebdf9c] rounded-lg shadow-2xl transform transition-transform hover:scale-110">
             <svg className='w-20 h-20' viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_249_183)">
                 <path d="M436.933 178.827L455.073 148.452L428.777 132.741L411.629 161.447M205.196 178.827L187.056 148.452L213.353 132.741L230.5 161.447M299.934 137.758V95.498H342.195V137.758" fill="#676E87"/>
@@ -75,7 +75,7 @@ export default function EchoSign() {
           </div>
 
           <div>
-            <div className="max-w-sm p-6 bg-[#a8e9f0] rounded-lg shadow-2xl">
+            <div className="max-w-sm p-6 bg-[#a8e9f0] rounded-lg shadow-2xl transform transition-transform hover:scale-110">
             <svg className='w-20 h-20' viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clip-path="url(#clip0_247_126)">
                   <path d="M487.382 54.042H331.534C326.994 54.042 322.64 55.8454 319.43 59.0554C316.22 62.2654 314.416 66.6192 314.416 71.159V175.007C314.416 179.547 316.22 183.901 319.43 187.111C322.64 190.321 326.994 192.125 331.534 192.125H377.032C379.684 192.125 382.228 193.179 384.103 195.054L404.137 215.087C405.075 216.024 406.346 216.551 407.672 216.551C408.998 216.551 410.269 216.024 411.207 215.087L431.241 195.054C432.17 194.125 433.272 193.388 434.486 192.885C435.699 192.383 437 192.124 438.313 192.124H487.383C491.923 192.124 496.276 190.32 499.486 187.11C502.696 183.9 504.5 179.547 504.5 175.007V71.16C504.5 66.6202 502.696 62.2664 499.486 59.0564C496.276 55.8464 491.922 54.042 487.382 54.042ZM24.618 54.042H180.466C185.006 54.042 189.36 55.8454 192.57 59.0554C195.78 62.2654 197.584 66.6192 197.584 71.159V175.007C197.584 179.547 195.78 183.901 192.57 187.111C189.36 190.321 185.006 192.125 180.466 192.125H134.968C132.316 192.125 129.772 193.179 127.897 195.054L107.863 215.087C106.925 216.024 105.654 216.551 104.328 216.551C103.002 216.551 101.731 216.024 100.793 215.087L80.758 195.054C78.8831 193.178 76.34 192.125 73.688 192.124H24.618C20.0784 192.124 15.7246 190.321 12.5145 187.111C9.30426 183.901 7.50053 179.548 7.5 175.008V71.16C7.50027 66.6202 9.30388 62.2664 12.5141 59.0564C15.7243 55.8464 20.0782 54.042 24.618 54.042Z" fill="#F2F2F2"/>
@@ -112,7 +112,7 @@ export default function EchoSign() {
           </div>
 
           <div>
-            <div className="max-w-sm p-6 bg-[#FFCBCB] rounded-lg shadow-2xl">
+            <div className="max-w-sm p-6 bg-[#FFCBCB] rounded-lg shadow-2xl transform transition-transform hover:scale-110">
             <svg className='w-20 h-20' viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_247_114)">
                 <path d="M7.5 382.852H504.5C504.5 398.765 498.179 414.026 486.926 425.278C475.674 436.531 460.413 442.852 444.5 442.852H67.5C51.587 442.852 36.3258 436.531 25.0736 425.278C13.8214 414.026 7.5 398.765 7.5 382.852Z" fill="#595F74"/>
@@ -141,7 +141,7 @@ export default function EchoSign() {
           </div>
 
           <div>
-            <div className="max-w-sm p-6 bg-[#73ccaa] rounded-lg shadow-2xl">
+            <div className="max-w-sm p-6 bg-[#73ccaa] rounded-lg shadow-2xl transform transition-transform hover:scale-110">
             <svg className='w-20 h-20' viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M403 72.5H109C92.4315 72.5 79 85.9315 79 102.5V474.5C79 491.069 92.4315 504.5 109 504.5H403C419.569 504.5 433 491.069 433 474.5V102.5C433 85.9315 419.569 72.5 403 72.5Z" fill="#FFC166"/>
                 <path d="M363 102.5H397C398.591 102.501 400.116 103.134 401.241 104.259C402.366 105.384 402.999 106.909 403 108.5V393.5L342 459.5H115C113.409 459.499 111.884 458.866 110.759 457.741C109.634 456.616 109.001 455.091 109 453.5V108.5C109.001 106.909 109.634 105.384 110.759 104.259C111.884 103.134 113.409 102.501 115 102.5H363Z" fill="white"/>
@@ -170,6 +170,6 @@ export default function EchoSign() {
           
         </div>
       </div>
-    </>
+    </section>
   )
 }

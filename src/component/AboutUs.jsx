@@ -3,7 +3,7 @@ import teamPhoto from '../assets/team2.jpg';
 
 export default function AboutUs() {
   return (
-    <>
+    <section id="about">
       <div className="flex flex-wrap m-[8%] mt-2">
         <div className='flex flex-col w-full'>
           <div className='flex flex-col lg:flex-row md:flex-row'>
@@ -28,6 +28,6 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 }

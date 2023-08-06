@@ -7,7 +7,7 @@ import EchoSign from "./component/EchoSign";
 import Video from "./component/Video";
 import Download from "./component/Download";
 import NewsLetter from "./component/NewsLetter";
-import Footer from "./component/Footer";
+import Footer from "./component/footer";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);

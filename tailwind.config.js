@@ -4,16 +4,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {
-      
-      colors: {
-        Cuscyan: '#1AA6B7',
-        
+    extend: { 
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
       },
-
-    }
-    
+      gradient: {
+        bluegreen: 'linear-gradient(to right, #68d391, #4fd1c5)',
+      },
+    },
   },
   plugins: [],
 }
-

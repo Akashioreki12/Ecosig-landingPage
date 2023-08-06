@@ -8,7 +8,7 @@ export default function
       <div className="flex flex-wrap m-[8%] mt-2 ">
         <div>
           <div className='flex flex-col lg:flex-row'>
-            <div className='block m ml-8 d:w-[60%] lg:w-[90%] text-7xl font-bold leading-snug tracking-tight'>
+            <div className='block m ml-8 md:w-[60%] lg:w-[90%] text-7xl font-bold leading-snug tracking-tight'>
               About<span className='text-cyan-800'> Us</span> 
             </div>
             <div className='lg:grid place-items-center leading-normal text-gray-700 lg:text-xl xl:text-2xl dark:text-gray-600'>

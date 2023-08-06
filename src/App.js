@@ -16,8 +16,11 @@ function App() {
       <Hero/>
       <AboutUs/>
       <OurStory/>
-
-      
+      <EchoSign/>
+      <Video/>
+      <Download/>
+      <NewsLetter/>
+      <Footer/>
       
     </div>
   );

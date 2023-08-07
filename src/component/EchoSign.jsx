@@ -3,7 +3,7 @@ import hands from '../assets/hands.png';
 
 export default function EchoSign() {
   return (
-    <section id='echoSign'>
+    <section id='echoSign' className='lg:h-screen flex justify-center items-center'>
       <div className='flex flex-col m-[8%]'>
         <div className='flex flex-col lg:flex-row'>
           <div className='block md:w-[100%] ml-8 text-4xl md:text-5xl lg:text-6xl font-bold leading-snug tracking-tight'>

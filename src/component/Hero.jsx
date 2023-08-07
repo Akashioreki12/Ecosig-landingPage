@@ -4,7 +4,7 @@ import heroPhoto from '../assets/Hero-photo.jpeg';
 export default function Hero() {
   return (
     <>
-      <div className="flex flex-wrap m-[8%] mt-11">
+      <div className="flex flex-wrap m-[8%] lg:h-screen lg:mt-11">
         <div className="flex items-center w-full lg:w-1/2 mb-6">
           <div className="max-w-2xl mx-8">
             <h1 className="block font-bold leading-snug tracking-tight">

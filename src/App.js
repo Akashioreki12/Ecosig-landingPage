@@ -17,9 +17,9 @@ function App() {
   };
   return (
     <div className={`${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'}`}>
-      <Navbar darkMode={darkMode} handleToggleDarkMode={handleToggleDarkMode}/>
-      <Hero darkMode={darkMode} handleToggleDarkMode={handleToggleDarkMode}/>
-      <AboutUs/>
+      <Navbar  darkMode={darkMode} handleToggleDarkMode={handleToggleDarkMode}/>
+      <Hero className='h-screen' darkMode={darkMode} handleToggleDarkMode={handleToggleDarkMode}/>
+      <AboutUs />
       <OurStory/>
       <EchoSign/>
       <Video/>

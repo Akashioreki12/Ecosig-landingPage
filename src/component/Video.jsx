@@ -3,10 +3,10 @@ import React from 'react';
 export default function Video() {
   return (
     <>
-      <div className='flex flex-col m-[8%]'>
+      <div className='flex flex-col m-[8%] '>
         <div>
           <div className='text-center text-xl'>Watch the video</div>
-          <div className='m-2 text-center text-5xl font-bold leading-snug tracking-tight'>Empowering Deaf-Mute Everywhere!</div>
+          <div className='m-2 text-center text-3xl md:text-4xl  lg:text-5xl font-bold leading-snug tracking-tight'>Empowering Deaf-Mute Everywhere!</div>
           <div className='text-center text-gray-400 px-[20%]'>This section highlights a promo or demo video of your product. Analysts say a landing page with a video has a 3% higher conversion rate. So, don't forget to add one, just like this.</div>
         </div>
 

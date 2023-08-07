@@ -3,8 +3,8 @@ import teamPhoto from '../assets/team1.jpg';
 
 export default function OurStory() {
   return (
-    <>
-      <div className='flex flex-col lg:flex-row m-[8%] mt-2 '>
+    <section id='ourstory' className='lg:h-screen flex justify-center items-center'>
+      <div className='flex flex-col lg:flex-row m-[8%] mt-2  '>
         <div className='lg:w-[50%] mt-[10%]'>
           <div className='block md:w-[100%] ml-8 text-4xl md:text-5xl lg:text-7xl font-bold leading-snug tracking-tight'>
             Our<span className='text-cyan-700'> Story...</span>
@@ -38,6 +38,6 @@ export default function OurStory() {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 }

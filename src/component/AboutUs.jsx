@@ -29,7 +29,7 @@ export default function AboutUs() {
           </div>
         </div>
 
-        <div className='absolute lg:translate-x-[2770%] md:translate-x-[2050%] translate-x-[1050%] lg:translate-y-[320%] translate-y-[590%]'>
+        <div className='hidden lg:block absolute lg:translate-x-[2770%] md:translate-x-[2050%] translate-x-[1050%] lg:translate-y-[320%] translate-y-[590%]'>
         <svg width="37" height="37" className='lg:w-[100%] md:w-[60%] w-[40%]' viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle cx="18.5" cy="18.5" r="18.5" fill="url(#paint0_linear_282_82)"/>
           <defs>

@@ -1,10 +1,10 @@
 import React from 'react';
-import hands from '../assets/hands.png';
+import hands from '../assets/hands1.png';
 
 export default function NewsLetter() {
   return (
     <section id='contact' className=''>
-      <div className='flex flex-col m-8 md:m-[8%] my-8 md:my-[12%] mb-8 md:mb-[20%] lg:h-screen justify-center '>
+      <div className='flex flex-col mx-8 md:m-[8%] my-8 lg:h-screen justify-center '>
         <div>
           <div className='m-2 font-sans text-cyan-700 text-4xl md:text-6xl font-bold leading-snug tracking-tight'>
             Let’s get in touch!

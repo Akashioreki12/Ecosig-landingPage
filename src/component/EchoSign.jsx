@@ -1,5 +1,5 @@
 import React from 'react';
-import hands from '../assets/hands.png';
+import hands from '../assets/hands1.png';
 
 export default function EchoSign() {
   return (

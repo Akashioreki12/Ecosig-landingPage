@@ -7,7 +7,7 @@ export default function Video() {
         <div>
           <div className='text-center text-xl'>Watch the video</div>
           <div className='m-2 text-center text-3xl md:text-4xl  lg:text-5xl font-bold leading-snug tracking-tight'>Empowering Deaf-Mute Everywhere!</div>
-          <div className='text-center text-gray-400 px-[20%]'>This section highlights a promo or demo video of your product. Analysts say a landing page with a video has a 3% higher conversion rate. So, don't forget to add one, just like this.</div>
+          <div className='text-center text-gray-400 px-[18%]'>Step into a world of innovation where communication finds its voice through technology's embrace. Discover the remarkable synergy of sound and gestures as EchoSign redefines connection for the deaf-mute community.</div>
         </div>
 
         <div className="w-full max-w-4xl mx-auto overflow-hidden m-8 rounded-2xl">

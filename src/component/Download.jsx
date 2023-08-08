@@ -17,9 +17,9 @@ export default function Download() {
           <div className='block w-full lg:w-[60%] text-3xl md:text-5xl lg:text-6xl font-bold leading-snug tracking-tight text-center lg:text-left'>
             Friendly and<span className='text-cyan-700'> aesthetic</span>
           </div>
-          <div className='lg:grid mx-5 mb-6 place-items-center leading-normal text-gray-600 lg:text-xl xl:text-xl text-center lg:text-left'>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
-          </div>
+          <div className='lg:grid mx-5 mb-6 place-items-center leading-normal text-gray-500 lg:text-lg xl:text-xl text-center lg:text-left'>
+            Unlock the beauty of seamless interaction. Dive into a world where voices find harmony.
+            </div>
           <button className='py-2 px-8 md:px-16 lg:px-20 h-12 md:h-14 lg:h-17 bg-gradient-to-r from-emerald-400 to-teal-500 text-white rounded-[10px] hover:opacity-10 transition duration-300 font-semibold'>
             Download
           </button>

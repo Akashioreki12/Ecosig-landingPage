@@ -10,11 +10,9 @@ export default function EchoSign() {
             What is 
             <span className='text-cyan-700'> EchoSign ?</span>
           </div>
-          <div className='lg:grid place-items-center leading-normal text-gray-700 lg:text-xl xl:text-2xl dark:text-gray-600 px-11'>
+          <div className='lg:grid place-items-center leading-normal text-gray-700 lg:text-xl xl:text-lg dark:text-gray-400 px-11'>
             <p>
-              Ut enim ad minim veniam, quis nostrud exercitation ud 
-              exercitation ullamco laboris nisi ut aliquip ex ea 
-              dfadfasdccatawcrvtcrstrcsrscsxa 
+            Through a combination of advanced technology, including cameras and sophisticated software, EchoSign captures sign language gestures and translates them instantly into spoken language, and vice versa.
             </p>
           </div>
         </div>

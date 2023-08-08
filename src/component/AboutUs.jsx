@@ -7,13 +7,12 @@ export default function AboutUs() {
       <div className="flex flex-wrap m-[8%] lg:h-screen mb-[20%] ">
         <div className='flex flex-col w-full'>
           <div className='flex flex-col lg:flex-row md:flex-row'>
-            <div className='block m ml-8 md:w-[60%] lg:w-[80%] text-4xl md:text-5xl lg:text-7xl font-bold leading-snug tracking-tight'>
+            <div className='block  ml-8 md:w-[60%] lg:w-[80%] text-4xl md:text-5xl lg:text-7xl font-bold leading-snug tracking-tight'>
               About<span className='text-cyan-700'> Us</span> 
             </div>
-            <div className='lg:grid place-items-center leading-normal text-gray-700 lg:text-xl xl:text-2xl dark:text-gray-600 m-4'>
+            <div className='lg:grid place-items-center leading-normal text-gray-700 lg:text-lg xl:text-xl dark:text-gray-400 m-4'>
               <p>
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip dgjhdljhlsjhs 
-              </p>
+              At Echosign, we're more than creators – we're stewards of inclusion and champions of innovation.</p>
             </div>
           </div>
           <div className='flex justify-center items-center w-full'>

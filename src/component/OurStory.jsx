@@ -9,10 +9,9 @@ export default function OurStory() {
           <div className='block md:w-[100%] ml-8 text-4xl md:text-5xl lg:text-7xl font-bold leading-snug tracking-tight'>
             Our<span className='text-cyan-700'> Story...</span>
           </div>
-          <div className='lg:grid place-items-center leading-normal text-gray-700 lg:text-xl xl:text-2xl dark:text-gray-600 p-[8%] pl-11'>
+          <div className='lg:grid place-items-center leading-normal text-gray-700 lg:text-xl xl:text-lg dark:text-gray-400 p-[8%] pl-11'>
             <p>
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-            </p>
+            Driven by a shared passion for creating positive change, we set out to bridge the communication gap and empower those often marginalized by society. Echosign became our beacon of hope, a revolutionary concept designed to amplify voices that had long been silenced.            </p>
           </div>
         </div>
         <div className='relative w-full lg:w-[50%] mt-6 lg:mt-0 lg:ml-4'>
@@ -20,7 +19,7 @@ export default function OurStory() {
             <img
               src={teamPhoto}
               width="90%"
-              className="object-fill rounded-3xl w-[52%] lg:h-auto lg:absolute lg:right-0 lg:top-1 dancing-image transition-transform duration-200 ease-out"
+              className="object-fill rounded-3xl w-[52%] lg:h-auto lg:absolute lg:right-0 lg:top-7 dancing-image transition-transform duration-200 ease-out"
               loading="eager"
               placeholder="blur"
               alt='team1'

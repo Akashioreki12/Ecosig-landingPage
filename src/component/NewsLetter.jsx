@@ -9,9 +9,8 @@ export default function NewsLetter() {
           <div className='m-2 font-sans text-cyan-700 text-4xl md:text-6xl font-bold leading-snug tracking-tight'>
             Let’s get in touch!
           </div>
-          <div className='lg:grid leading-normal text-gray-500 text-sm md:text-lg xl:text-2xl dark:text-gray-500'>
-             aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          </div>
+          <div className='lg:grid leading-normal text-gray-500 text-sm md:text-lg xl:text-xl dark:text-gray-400 lg:pr-[50%] lg:pl-2'>
+          Welcome to a universe where understanding is universal. Explore how our innovation bridges gaps.          </div>
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4 md:px-8 lg:px-11 mt-6'>

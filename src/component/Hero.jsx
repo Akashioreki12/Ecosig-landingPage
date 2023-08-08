@@ -1,7 +1,24 @@
-import React from 'react';
+import React,{ useEffect, useState } from 'react';
 import heroPhoto from '../assets/hero-photo.jpeg';
 
 export default function Hero() {
+
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const element = document.querySelector('.animate-section');
+      if (element) {
+        const rect = element.getBoundingClientRect();
+        const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+        setIsVisible(rect.top <= windowHeight * 0.8);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <>
       <div className='hidden lg:block absolute translate-x-7 translate-y-9'>

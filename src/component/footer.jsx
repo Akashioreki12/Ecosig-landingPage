@@ -9,9 +9,9 @@ export default function Footer({ darkMode }) {
   const logoImage = darkMode ? logoImageDark : logoImageWhite;
 
   return (
-    <footer className={`${darkMode ? 'bg-cyan-300 text-gray-600' : 'bg-[#d1ecef] text-gray-900'}`}>
-      <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-10 lg:px-8">
-        <div className="flex flex-col md:flex-row">
+    <footer className={`${darkMode ? 'bg-teal-500 text-gray-600' : 'bg-[#d1ecef] text-gray-900'}`}>
+      <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-10 lg:px-24 ">
+        <div className="flex flex-col md:flex-row mb-10">
           <div className="md:w-[80%]">
             <div className="md:mb-0 lg:mb-6">
               <a href="home" className="">
@@ -40,7 +40,6 @@ export default function Footer({ darkMode }) {
           </div>
         </div>
 
-        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8 " />
 
         <div className="sm:flex sm:items-center sm:justify-between ">
           

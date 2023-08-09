@@ -9,7 +9,7 @@ module.exports = {
         sans: ['Poppins', 'sans-serif'],
       },
       gradient: {
-        bluegreen: 'linear-gradient(to right, #68d391, #4fd1c5)',
+        bluegreen: 'linear-gradient(to right, #54BD95, #1AA6B7)',
       },
     },
   },

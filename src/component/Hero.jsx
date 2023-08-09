@@ -55,13 +55,13 @@ export default function Hero() {
             </p>
 
             <div className="mt-3 flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
-              <button className="w-38 h-15 p-2.5 px-6 rounded-3xl border-4 border-emerald-400 justify-center items-center gap-2.5 inline-flex">
+              <button className="w-38 h-15 p-2.5 px-6 rounded-3xl border-4 border-teal-500 justify-center items-center gap-2.5 inline-flex">
                 <div className="text-teal-500 text-lg font-medium">
                   EchoSign
                 </div>
               </button>
 
-              <button className="w-38 h-15 p-2.5 px-6 rounded-3xl border-4 border-emerald-400 justify-center items-center gap-2.5 inline-flex">
+              <button className="w-38 h-15 p-2.5 px-6 rounded-3xl border-4 border-teal-500 justify-center items-center gap-2.5 inline-flex">
                 <div className="text-teal-500 text-lg font-medium">
                   Watch the video
                 </div>

@@ -43,7 +43,7 @@ export default function Navbar({ darkMode, handleToggleDarkMode }) {
   return (
     
     <div className={` ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'}`}>
-      <div className='flex justify-between items-center h-24 max-w-[1245px] mx-4 md:mx-20 px-2 md:px-0'>
+      <div className='flex justify-between items-center h-20 max-w-[1245px] mx-4 md:mx-20 px-2 md:px-0'>
         <img
           src={darkMode ? logoImageWhite : logoImage}
           alt='Logo'
@@ -59,7 +59,7 @@ export default function Navbar({ darkMode, handleToggleDarkMode }) {
           <li className=' cursor-pointer hover:text-teal-500'><Link to='contact' smooth={true} duration={600}>Contact</Link></li>
           <li
             className={`py-2 px-6 h-10 text-white rounded-[10px]  ${
-              darkMode ? 'bg-teal-500' : 'bg-gradient-to-r from-emerald-400 to-teal-500'
+              darkMode ? 'bg-teal-500' : 'bg-gradient-to-r from-[#54BD95] to-[#1AA6B7]'
             } hover:opacity-10 transition cursor-pointer duration-300 font-semibold`}
           >
             <Link to='download' smooth={true} duration={600}>Download</Link>
@@ -97,7 +97,7 @@ export default function Navbar({ darkMode, handleToggleDarkMode }) {
               Contact
             </li>
             <li className='font-semibold p-4 ml-3 border-b border-gray-300 hover:text-teal-500'>
-              Log in
+              Features
             </li>
           </ul>
         </div>

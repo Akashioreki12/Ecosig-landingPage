@@ -3,21 +3,7 @@ import heroPhoto from '../assets/hero-photo.jpeg';
 
 export default function Hero() {
 
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const element = document.querySelector('.animate-section');
-      if (element) {
-        const rect = element.getBoundingClientRect();
-        const windowHeight = window.innerHeight || document.documentElement.clientHeight;
-        setIsVisible(rect.top <= windowHeight * 0.8);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  
 
   return (
     <>
@@ -54,7 +40,7 @@ export default function Hero() {
               Empowering Deaf-Mute Communication Everywhere!
             </p>
 
-            <div className="mt-3 flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+            <div className="mt-3 flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row ">
               <button className="w-38 h-15 p-2.5 px-6 rounded-3xl border-4 border-teal-500 justify-center items-center gap-2.5 inline-flex">
                 <div className="text-teal-500 text-lg font-medium">
                   EchoSign
@@ -69,7 +55,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center w-full lg:w-1/2">
+        <div className="flex items-center justify-center w-full lg:w-1/2 ">
           <div className="">
             <img
               src={heroPhoto}

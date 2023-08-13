@@ -83,7 +83,7 @@ export default function AboutUs() {
         </div>
       </div>
 
-      <div className='absolute lg:translate-y-[-430%] lg:translate-x-[70%] md:translate-y-[-280%] md:translate-x-[60%] translate-x-[25%] translate-y-[-180%] transform transition-transform hover:scale-110'>
+      <div className='absolute lg:translate-y-[-430%] lg:translate-x-[70%] md:translate-y-[-280%] md:translate-x-[60%] translate-x-[45%] translate-y-[-220%] transform transition-transform hover:scale-110'>
           <svg width="229" height="122" className='lg:w-[100%] md:w-[60%] w-[40%]' viewBox="0 0 229 122" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g filter="url(#filter0_d_307_109)">
           <rect x="10" y="10" width="189" height="82" rx="20" fill="white"/>
@@ -109,7 +109,7 @@ export default function AboutUs() {
         </svg>
         </div>
 
-        <div className='absolute lg:translate-x-[460%] lg:translate-y-[-130%] md:translate-x-[300%] md:translate-y-[-130%] translate-x-[170%] translate-y-[-100%] transform transition-transform hover:scale-110'>
+        <div className='absolute lg:translate-x-[440%] lg:translate-y-[-160%] md:translate-x-[290%] md:translate-y-[-130%] translate-x-[210%] translate-y-[-110%] transform transition-transform hover:scale-110'>
         <svg width="209" height="194" className='lg:w-[100%] md:w-[60%] w-[40%]' viewBox="0 0 209 194" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g filter="url(#filter0_d_312_126)">
           <path d="M10 20C10 8.95431 18.9543 0 30 0H179C190.046 0 199 8.95431 199 20V154C199 165.046 190.046 174 179 174H30C18.9543 174 10 165.046 10 154V20Z" fill="white"/>

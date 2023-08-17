@@ -3,7 +3,7 @@ import teamPhoto from '../assets/team1.jpg';
 
 export default function OurStory() {
   return (
-    <section id='ourstory' className='lg:h-screen flex justify-center items-center'>
+    <section id='ourstory' className='lg:h-auto flex justify-center items-center'>
 
       <div className=' hidden lg:block absolute translate-x-[-70%] translate-y-[-120%]'>
       <svg width="173" height="69" viewBox="0 0 173 69" fill="none" xmlns="http://www.w3.org/2000/svg">

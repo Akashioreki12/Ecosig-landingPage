@@ -29,7 +29,7 @@ export default function Hero() {
 
 
 
-      <div className="flex flex-col sm:items-center sm:flex-row lg:gap-0 gap-6 m-[8%] lg:h-screen lg:mt-0 realtive
+      <div className="flex flex-col sm:items-center sm:flex-row lg:gap-0 gap-6 m-[8%] lg:h-auto lg:mt-0 realtive
       justify-center items-center
       ">
         <div className="flex items-center w-full lg:w-1/2 mb-0">

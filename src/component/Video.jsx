@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Video() {
   return (
-    <section id='video'>
+    <section id='video h-auto'>
       <div className='flex flex-col m-[8%] '>
         <div>
           <div className='text-center text-xl'>Watch the video</div>

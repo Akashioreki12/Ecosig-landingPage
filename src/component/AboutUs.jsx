@@ -59,10 +59,10 @@ export default function AboutUs() {
 
         </div>
 
-      <div className="flex flex-wrap m-[8%] lg:h-screen relative h-auto">
+      <div className="flex flex-wrap m-[8%] lg:h-auto relative h-auto">
         <div className='flex flex-col w-full'>
           <div className='flex flex-col lg:flex-row md:flex-row'>
-            <div className='block  ml-8 md:w-[60%] lg:w-[80%] text-4xl md:text-5xl lg:text-7xl font-bold leading-snug tracking-tight'>
+            <div className='block  ml-8 md:w-[60%] lg:w-[70%] text-4xl md:text-5xl lg:text-7xl font-bold leading-snug tracking-tight'>
               About<span className='text-cyan-700'> Us</span> 
             </div>
             <div className='lg:grid place-items-center leading-normal text-gray-700 lg:text-lg xl:text-xl dark:text-gray-400 m-4'>
@@ -110,7 +110,7 @@ export default function AboutUs() {
         </svg>
         </div>
 
-        <div className=' hidden lg:block translate-x-[390%] translate-y-[-200%]  transform transition-transform hover:scale-110'>
+        <div className=' hidden lg:block translate-x-[400%] translate-y-[-250%]  transform transition-transform hover:scale-110'>
         <svg width="209" height="194" className='lg:w-[100%] md:w-[60%] w-[40%]' viewBox="0 0 209 194" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g filter="url(#filter0_d_312_126)">
           <path d="M10 20C10 8.95431 18.9543 0 30 0H179C190.046 0 199 8.95431 199 20V154C199 165.046 190.046 174 179 174H30C18.9543 174 10 165.046 10 154V20Z" fill="white"/>

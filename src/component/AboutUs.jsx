@@ -22,7 +22,7 @@ export default function AboutUs() {
             </svg>
           </div>
 
-          <div className='absolute lg:translate-x-[660%] md:translate-x-[490%] translate-x-[250%] lg:translate-y-[240%] translate-y-[120%]'>
+          <div className='hidden lg:block absolute lg:translate-x-[660%] md:translate-x-[490%] translate-x-[250%] lg:translate-y-[240%] translate-y-[120%]'>
             <svg width="154" height="111" className='lg:w-[100%] md:w-[60%] w-[40%]' viewBox="0 0 154 111" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M67.3966 72.3597C74.5126 79.5792 81.4163 77.7722 87.3914 75.2992C110.305 65.7681 130.124 51.5378 141.682 25.7287C142.559 23.761 143.618 21.8182 144.978 20.3554C147.791 17.3221 152.667 19.5811 153.097 24.3624C153.459 28.4292 152.984 32.7507 151.911 36.4208C147.753 50.6655 139.328 61.1709 129.271 69.1087C118.922 77.2797 107.673 84.3672 95.9083 89.8385C84.7085 95.0419 72.3969 96.8055 59.9272 85.1701C58.7294 84.0592 55.0699 85.5577 53.3209 87.0046C44.8013 94.0321 37.1774 102.671 27.9586 108.297C22.6301 111.546 14.928 110.963 8.16695 110.586C3.9681 110.359 0.685935 106.402 0.331767 100.444C-0.0518934 94.066 4.05763 94.1135 7.42843 94.4729C27.5545 96.5722 36.6708 78.7683 49.3535 67.4639C50.32 66.6089 50.2049 63.6652 49.9489 61.6849C46.38 34.2423 56.5272 15.7974 73.32 2.53187C77.0915 -0.444813 83.7817 0.485291 89.1757 1.17965C91.0919 1.4367 95.2253 7.38037 94.839 9.03724C91.4489 23.4849 92.2153 40.2091 83.6558 51.8905C78.5353 58.8599 72.972 65.3803 67.4052 72.3325L67.3966 72.3597ZM76.5575 26.1826C75.6457 25.4622 74.7421 24.7625 73.8304 24.0421C70.3736 31.7974 66.9333 39.5462 63.4765 47.3015C64.4133 47.9883 65.3502 48.675 66.287 49.3617C69.694 41.6258 73.1257 33.9042 76.5328 26.1683L76.5575 26.1826Z" fill="#1AA6B7" fill-opacity="0.13"/>
             </svg>
@@ -59,7 +59,7 @@ export default function AboutUs() {
 
         </div>
 
-      <div className="flex flex-wrap m-[8%] lg:h-screen mb-[5%] relative">
+      <div className="flex flex-wrap m-[8%] lg:h-screen relative h-auto">
         <div className='flex flex-col w-full'>
           <div className='flex flex-col lg:flex-row md:flex-row'>
             <div className='block  ml-8 md:w-[60%] lg:w-[80%] text-4xl md:text-5xl lg:text-7xl font-bold leading-snug tracking-tight'>
@@ -83,7 +83,8 @@ export default function AboutUs() {
         </div>
       </div>
 
-      <div className='absolute lg:translate-y-[-430%] lg:translate-x-[70%] md:translate-y-[-280%] md:translate-x-[60%] translate-x-[45%] translate-y-[-220%] transform transition-transform hover:scale-110'>
+      <div className='absolute'>
+      <div className='hidden lg:block  translate-y-[-430%] translate-x-[70%]  transform transition-transform hover:scale-110'>
           <svg width="229" height="122" className='lg:w-[100%] md:w-[60%] w-[40%]' viewBox="0 0 229 122" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g filter="url(#filter0_d_307_109)">
           <rect x="10" y="10" width="189" height="82" rx="20" fill="white"/>
@@ -109,7 +110,7 @@ export default function AboutUs() {
         </svg>
         </div>
 
-        <div className='absolute lg:translate-x-[440%] lg:translate-y-[-160%] md:translate-x-[290%] md:translate-y-[-130%] translate-x-[210%] translate-y-[-110%] transform transition-transform hover:scale-110'>
+        <div className=' hidden lg:block translate-x-[390%] translate-y-[-200%]  transform transition-transform hover:scale-110'>
         <svg width="209" height="194" className='lg:w-[100%] md:w-[60%] w-[40%]' viewBox="0 0 209 194" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g filter="url(#filter0_d_312_126)">
           <path d="M10 20C10 8.95431 18.9543 0 30 0H179C190.046 0 199 8.95431 199 20V154C199 165.046 190.046 174 179 174H30C18.9543 174 10 165.046 10 154V20Z" fill="white"/>
@@ -132,6 +133,7 @@ export default function AboutUs() {
           </defs>
           </svg>
 
+        </div>
         </div>
 
     </section>

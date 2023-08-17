@@ -43,7 +43,7 @@ export default function Navbar({ darkMode, handleToggleDarkMode }) {
   return (
     
     <div className={` ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'}`}>
-      <div className='flex justify-between items-center h-20 max-w-[1245px] mx-4 md:mx-20 px-2 md:px-0'>
+      <div className='flex justify-between items-center h-20 max-w-full mx-11 px-2 md:px-0'>
         <img
           src={darkMode ? logoImageWhite : logoImage}
           alt='Logo'

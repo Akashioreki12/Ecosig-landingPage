@@ -59,8 +59,7 @@ export default function Hero() {
           <div className="">
             <img
               src={heroPhoto}
-              width="430"
-              height="596"
+              
               className="object-cover rounded-[3%] sm:rounded-[1%] lg:rounded-[3%]"
               alt="Sign language"
               loading="eager"

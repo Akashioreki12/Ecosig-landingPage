@@ -1,4 +1,5 @@
 import React,{ useEffect, useState } from 'react';
+
 import heroPhoto from '../assets/hero.jpg';
 
 export default function Hero() {

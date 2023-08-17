@@ -1,5 +1,5 @@
 import React,{ useEffect, useState } from 'react';
-import heroPhoto from 'src/assets/Hero-photo.jpeg';
+import heroPhoto from '../assets/Hero-photo.jpeg';
 
 export default function Hero() {
 

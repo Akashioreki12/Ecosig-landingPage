@@ -8,6 +8,7 @@ import Video from "./component/Video";
 import Download from "./component/Download";
 import NewsLetter from "./component/NewsLetter";
 import Footer from "./component/footer";
+import DarkModeButton from "./component/DarkModeButton";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -16,17 +17,28 @@ function App() {
     setDarkMode(!darkMode);
   };
   return (
-    <div className={`${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'}`}>
-      <Navbar  darkMode={darkMode} handleToggleDarkMode={handleToggleDarkMode}/>
-      <Hero className='h-screen' darkMode={darkMode} handleToggleDarkMode={handleToggleDarkMode}/>
+    <div
+      className={`${
+        darkMode ? "bg-gray-900 text-white" : "bg-white text-gray-900"
+      }`}
+    >
+      <Navbar darkMode={darkMode} handleToggleDarkMode={handleToggleDarkMode} />
+      <Hero
+        className="h-screen"
+        darkMode={darkMode}
+        handleToggleDarkMode={handleToggleDarkMode}
+      />
       <AboutUs />
-      <OurStory/>
-      <EchoSign/>
-      <Video/>
-      <Download/>
-      <NewsLetter/>
-      <Footer darkMode={darkMode}/>
-      
+      <OurStory />
+      <EchoSign />
+      <Video />
+      <Download />
+      <NewsLetter />
+      <Footer darkMode={darkMode} />
+      <DarkModeButton
+        darkMode={darkMode}
+        handleToggleDarkMode={handleToggleDarkMode}
+      />
     </div>
   );
 }

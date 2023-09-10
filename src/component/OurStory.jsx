@@ -70,7 +70,7 @@ export default function OurStory() {
 
       <div className='flex flex-col lg:flex-row m-[8%] mt-2  '>
         <div className='lg:w-[50%] mt-[10%]'>
-          <div className='block md:w-[100%] ml-8 text-4xl md:text-5xl lg:text-7xl font-bold leading-snug tracking-tight'>
+          <div className='block  ml-8 text-4xl md:text-5xl lg:text-7xl font-bold leading-snug tracking-tight'>
             Our<span className='text-cyan-700'> Story...</span>
           </div>
           <div className='lg:grid place-items-center leading-normal text-gray-700 lg:text-xl xl:text-lg dark:text-gray-400 p-[8%] pl-11'>

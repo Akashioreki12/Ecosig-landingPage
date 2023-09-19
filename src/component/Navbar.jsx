@@ -49,11 +49,11 @@ export default function Navbar({ darkMode, handleToggleDarkMode }) {
         darkMode ? "bg-gray-900 text-white" : "bg-white text-gray-900"
       }`}
     >
-      <div className="flex justify-between items-center h-20 max-w-full mx-11 px-2 md:px-0">
+      <div className="flex justify-between items-center h-20 max-w-full mx-[4%] mb-[1%] px-2 md:px-0">
         <img
           src={darkMode ? logoImageWhite : logoImage}
           alt="Logo"
-          className="h-10"
+          className="h-10 "
         />
         <ul
           className={`hidden md:flex items-center space-x-7 ${
@@ -113,7 +113,7 @@ export default function Navbar({ darkMode, handleToggleDarkMode }) {
           <img
             src={darkMode ? logoImageWhite : logoImage}
             alt="Logo"
-            className="h-10 m-7 pl-12"
+            className="h-10 m-7 pl-12 "
           />
 
           <ul
